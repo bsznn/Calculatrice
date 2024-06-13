@@ -115,7 +115,7 @@ button[type="submit"]:hover {
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color);
   border: 1px solid var(--accent-color);
   border-radius: 6px;
   padding: 20px;
@@ -126,14 +126,14 @@ button[type="submit"]:hover {
 
 .custom-alert span {
   font-size: 16px;
-  color: var(--dark-color);
+  color: #fff;
   margin-bottom: 10px;
 }
 
 .custom-alert button {
   padding: 10px 20px;
-  background-color: var(--dark-color);
-  color: #fff;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
   border: none;
   border-radius: 4px;
   font-size: 16px;
@@ -142,7 +142,7 @@ button[type="submit"]:hover {
 }
 
 .custom-alert button:hover {
-  background-color: var(--text-color);
+  background-color: #fff;
 }
 
 @keyframes fadeIn {
