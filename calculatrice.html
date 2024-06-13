@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exo 1 : Calculatrice</title>
+  </head>
+  <body>
+    <section>
+      <div class="title">
+        <h1>Calculatrice</h1>
+      </div>
+      <div class="links">
+        <a id="showCalculator">Faire apparaître la calculatrice | </a>
+        <a id="hideCalculator">Faire disparaître la calculatrice</a>
+      </div>
+      <div class="calculator" id="calculator">
+        <form id="calcForm">
+          <input
+            type="number"
+            id="num1"
+            placeholder="Premier nombre"
+            required
+          />
+          <span id="infoBox1"></span>
+          <select id="operation">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+          </select>
+          <span id="infoBox2"></span>
+          <input
+            type="number"
+            id="num2"
+            placeholder="Deuxième nombre"
+            required
+          />
+          <span id="infoBox3"></span>
+          <button type="submit">Calculer</button>
+        </form>
+      </div>
+      <div id="customAlert" class="custom-alert">
+        <span id="alertMessage"></span>
+        <button id="closeAlert">Fermer</button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
